@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sr-only{ 
+        position: absolute ;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        top: auto;
+        overflow: hidden;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(204, 43%, 93%);
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    width: 50vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    padding: 1.5em;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.top p{
+    color: hsl(218, 22%, 67%);
+}
+.h2{
+    margin-bottom: 1em;
+    color: hsl(179, 62%, 43%);
+}
+.th3{
+    padding-bottom: 0.5em;
+    color: hsl(71, 73%, 54%);
+}
+.bot{
+    display: flex;
+    height: 60%;
+}
+.bl{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1.5em;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+}
+.blh3{
+    color: white;
+}
+.dprice{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+.price{
+    font-size: 35px;
+    margin-right: 0.3em;
+    color: white;
+}
+.mon{
+    color: hsl(0, 0%, 100%,0.5);
+}
+.blp{
+    margin-bottom: 1em;
+    color: hsl(0, 0%, 100%,0.7);
+}
+.but{
+    width: 20em;
+    height: 3em;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+}
+.but a{
+    color: white;
+    text-decoration: none;
+}
+.br{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: hsl(179, 62%, 50%);
+    width: 50%;
+    padding: 1.5em;
+    border-bottom-right-radius: 10px;
+}
+.brh{
+    margin-bottom: 1.5em;
+    color: white;
+}
+.brp{
+    color: hsl(0, 0%, 100%,0.5);
+    padding-right: 4em;
+}
